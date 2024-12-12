@@ -22,8 +22,9 @@ title: CCT
 email: acsi.cct@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Anglo-Chinese School (Independent)'s Coding Competition Team
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: / # the subpath of your site, e.g. /blog
+url: https://coding-competition-team.github.io # the base hostname & protocol for your site, e.g. http://example.com
+domain: coding-competition-team.github.io
 github_username:  Coding-Competition-Team
 
 # Build settings
