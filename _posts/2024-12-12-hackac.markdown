@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "HACK@AC 2024"
+date:   2024-12-12 06:43:50 +0000
+categories: jekyll update
+---
+
+<img src="/images/hackac-2024.jpg">
+
+Hi everyone! 
+
+We are pleased to have brought back our flagship event, HACK@AC for its 3rd iteration in 2024! 
+
+HACK@AC is an inter-school event which saw more than 350 participants from 128 teams compete in a gruelling 12-hour cybersecurity capture-the-flag competition on 24 February. On 2 March, we hosted our first ever in-person finale for HACK@AC.
+
+During the finale, participants tried out different activities such as code golfing (solving a programming challenge using the least number of characters), blind coding (literally blindfolded), large language model prompt engineering, and hangman (powered by machine learning).
+
+There were also challenge walkthroughs by our members, explaining the steps to solve certain challenges featured in the online CTF competition. Every participant also received complimentary HACK@AC merchandise, courtesy of ACS(I)'s Young Innovators' Society.
+
+The finale ended off with prizes presented by our Deputy Principal, Mr Terence Chiew, with special prizes also presented for selected challenges. **Congratulations to the winners from NUS High School of Math and Science, Hillgrove Secondary School, and Singapore Polytechnic for emerging as winners in the Secondary and Tertiary categories!**
+
+We are happy to say that this year's event was well received, with a very large turnout for both the finale and the CTF. We are glad for the enthusiasm shown and we will see you in the next iteration of HACK@AC!
+
+Thank you! 
+ 
