@@ -1,0 +1,153 @@
+---
+layout: base
+---
+
+<div class="home">
+  <style>
+    @font-face {
+      font-family: sohneBold;
+      src: url("/fonts/sohne75.otf");
+    }
+    @font-face {
+      font-family: sohne;
+      src: url("/fonts/sohne.otf");
+    }
+
+    .text {
+      font-family: sohne;
+    }
+
+    .typed-text {
+      color: #1756a9;
+      font-family: sohneBold;
+    }
+
+    .cursor {
+      display: inline-block;
+      width: 3px;
+      margin-left: 4px;
+      background: #1756a9;
+    }
+
+    .cursor.blink {
+      animation: blink 0.8s ease-in-out infinite;
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        background: #1756a9;
+      }
+
+      40%,
+      50% {
+        background: transparent;
+      }
+    }
+  </style>
+
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <h1><span class="text">We are the Coding Competition Team from ACSI.<br>We </span><span class="typed-text"></span><span class="cursor blink">&nbsp;</span></h1>
+
+  {{ content }}
+
+  {% if site.paginate %}
+  {% assign posts = paginator.posts %}
+  {% else %}
+  {% assign posts = site.posts %}
+  {% endif %}
+
+
+  {%- if posts.size > 0 -%}
+  {%- if page.list_title -%}
+  <h2 class="post-list-heading">{{ page.list_title }}</h2>
+  {%- endif -%}
+  <ul class="post-list">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- for post in posts -%}
+    <li>
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  {% if site.paginate %}
+  <div class="pager">
+    <ul class="pagination">
+      {%- if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page
+          }}</a></li>
+      {%- else %}
+      <li>
+        <div class="pager-edge">•</div>
+      </li>
+      {%- endif %}
+      <li>
+        <div class="current-page">{{ paginator.page }}</div>
+      </li>
+      {%- if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+      {%- else %}
+      <li>
+        <div class="pager-edge">•</div>
+      </li>
+      {%- endif %}
+    </ul>
+  </div>
+  {%- endif %}
+
+  {%- endif -%}
+
+  <script defer>
+    const typedText = document.querySelector(".typed-text");
+    const cursor = document.querySelector(".cursor");
+
+    const textArray = ["dream big.", "create solutions.", "push boundaries.", "win."];
+
+    let textArrayIndex = 0;
+    let charIndex = 0;
+
+    const erase = () => {
+      if (textArrayIndex > textArray.length - 1) return;
+      if (charIndex > 0) {
+        cursor.classList.remove('blink');
+        typedText.textContent = textArray[textArrayIndex].slice(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, 80);
+      } else {
+        cursor.classList.add('blink');
+        textArrayIndex++;
+        setTimeout(type, 1000);
+      }
+    }
+
+    const type = () => {
+      if (charIndex <= textArray[textArrayIndex].length - 1) {
+        cursor.classList.remove('blink');
+        typedText.textContent += textArray[textArrayIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, 120);
+      } else {
+        cursor.classList.add('blink');
+        if (textArrayIndex < textArray.length - 1) setTimeout(erase, 1000);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      type();
+    })
+  </script>
+
+</div>
