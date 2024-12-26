@@ -8,13 +8,9 @@ layout: base
       font-family: sohneBold;
       src: url("/fonts/sohne75.otf");
     }
-    @font-face {
-      font-family: sohne;
-      src: url("/fonts/sohne.otf");
-    }
 
-    .text {
-      font-family: sohne;
+    h1 {
+      font-size: 240%;
     }
 
     .typed-text {
@@ -52,7 +48,7 @@ layout: base
   {%- endif -%}
 
   <h1><span class="text">We are the Coding Competition Team from ACSI.<br>We </span><span class="typed-text"></span><span class="cursor blink">&nbsp;</span></h1>
-
+  <br>
   {{ content }}
 
   {% if site.paginate %}

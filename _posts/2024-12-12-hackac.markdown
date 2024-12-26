@@ -5,7 +5,7 @@ date:   2024-12-12 06:43:50 +0000
 categories: jekyll update
 ---
 
-<img src="/images/hackac-2024.jpg">
+<img src="/images/posts/2024-hackac-finale.jpg">
 
 Hi everyone! 
 
