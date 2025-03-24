@@ -4,6 +4,9 @@ title: Achievements
 permalink: /achievements/
 ---
 
+# 2025
+- SMU Whitehacks - 1st place
+
 # 2024
 - SMU Whitehacks - 2nd, 7th Place
 - Cyberthon - 3rd Place
