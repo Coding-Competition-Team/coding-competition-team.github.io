@@ -6,6 +6,7 @@ permalink: /achievements/
 
 # 2025
 - SMU Whitehacks - 1st place
+- National Olympiad for Informatics - 3 Silver, 3 Bronze
 
 # 2024
 - SMU Whitehacks - 2nd, 7th Place
