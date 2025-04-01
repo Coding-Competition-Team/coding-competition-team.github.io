@@ -21,7 +21,9 @@ HACK@AC features engaging and educational challenges in various categories inclu
 |------------------------|-------------------------------|
 | Training workshops (virtual)    | 12, 14 May 4:00pm - 6:30pm    |
 | CTF competition        | 17 May 8:00am - 18 May 8:00pm |
-| Onsite finale @ ACS(I) | 26 May 3:00pm - 7:00pm        |
+| Onsite finale @ ACS(I) | 25 May 3:00pm - 7:00pm        |
+
+Note: The onsite finale will include challenge walkthroughs, engaging booths, a prize presentation, and a complementary buffet dinner. The final leaderboard will also only be revealed at the finale event.
 
 ### Prizes
 
@@ -33,7 +35,7 @@ HACK@AC features engaging and educational challenges in various categories inclu
 
 ### Sign Up
 
-[Sign up here!](https://insertlinkhereaaaaa.com)
+[Sign up by 12 May!](https://forms.office.com/r/tTBxgDSUJu)
 
 <img src="../images/hackac-pubs/HACK@AC poster.png" width="500">
 
@@ -61,7 +63,3 @@ HACK@AC features engaging and educational challenges in various categories inclu
   - Existing ACS(I) CCT Members
   - Other ACS(I) Students
 - All decisions made by the organisers are final, including decisions on eligibility, awarding of prizes, cheating or misconduct, termination of activity, or disqualification. The organisers reserve the right to change the rules where required.
-
-
-
-
