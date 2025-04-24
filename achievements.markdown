@@ -8,6 +8,7 @@ permalink: /achievements/
 - SMU Whitehacks - 1st place
 - National Olympiad for Informatics - 3 Silver, 3 Bronze
 - SAFMC - Judge's Commendation
+- National Cybersecurity Olympiad - 1 Gold, 3 Silver, 1 Bronze
 
 # 2024
 - SMU Whitehacks - 2nd, 7th Place
