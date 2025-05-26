@@ -18,6 +18,12 @@ permalink: /gallery/
   }
 </style>
 
+## 2025
+
+<div class="flexy">
+  <img class="gallery" src="/images/gallery/2025-NCO.jpg">
+</div>
+
 ## 2024
 
 <div class="flexy">
