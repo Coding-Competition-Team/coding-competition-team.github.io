@@ -22,9 +22,9 @@ permalink: /gallery/
 
 <div class="flexy">
   <img class="gallery" src="/images/gallery/2025-NCO.jpg">
-  <img class="gallery" src="/images/gallery/2025-SAFMC-1.jpg">
-  <img class="gallery" src="/images/gallery/2025-SAFMC-2.jpg">
-  <img class="gallery" src="/images/gallery/2025-SAFMC-3.jpg">
+  <img class="gallery" src="/images/gallery/2025-SAFMC-1.JPG">
+  <img class="gallery" src="/images/gallery/2025-SAFMC-2.JPG">
+  <img class="gallery" src="/images/gallery/2025-SAFMC-3.JPG">
 </div>
 
 ## 2024
