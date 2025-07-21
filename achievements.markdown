@@ -10,6 +10,8 @@ permalink: /achievements/
 - SAFMC - Judge's Commendation
 - National Cybersecurity Olympiad - 1 Gold, 3 Silver, 1 Bronze
 - International Cybersecurity Olympiad - 1 Gold
+- Lag and Crash CTF - 3rd Place
+- HCI SieberrsecCTF 6.0 - 2nd Place
 
 # 2024
 - SMU Whitehacks - 2nd, 7th Place
